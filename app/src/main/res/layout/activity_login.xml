@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@drawable/drone"
+    android:padding="16dp"
+    tools:context=".LoginActivity">
+
+
+
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <LinearLayout
+            android:layout_width="400dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingBottom="18dp"
+            android:paddingRight="16dp"
+            android:paddingLeft="16dp"
+            android:background="#ffffff"
+            android:layout_gravity="center">
+
+
+
+            <ImageView
+                android:layout_marginTop="100dp"
+                android:layout_width="140dp"
+                android:layout_gravity="center"
+                android:layout_height="170dp"
+                android:src="@drawable/ekiti"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:textSize="9sp"
+                android:textStyle="italic"
+                android:textColor="#000"
+                android:text="..Ile Iyi, Ile Eye"/>
+
+            <TextView
+                android:layout_marginTop="14dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:textSize="24sp"
+                android:textColor="#000"
+                android:textStyle="bold"
+                android:text="Ekiti Land Use Charge"/>
+
+            <TextView
+                android:layout_marginTop="2dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:textSize="14sp"
+                android:textColor="#000"
+                android:text="Enumeration"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_marginTop="50dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="center"
+                    android:textSize="16sp"
+                    android:id="@+id/message"
+                    android:textColor="#000"
+                    android:text=""/>
+
+                <EditText
+                    android:layout_marginTop="30dp"
+                    android:layout_width="200dp"
+                    android:layout_gravity="center"
+                    android:hint="Staff-ID"
+                    android:id="@+id/staff_id"
+                    android:layout_height="40dp"
+                    android:background="@drawable/rounded"/>
+
+
+                <EditText
+                    android:layout_marginTop="20dp"
+                    android:layout_width="200dp"
+                    android:layout_gravity="center"
+                    android:inputType="textPassword"
+                    android:hint="Password"
+                    android:id="@+id/password"
+                    android:layout_height="40dp"
+                    android:background="@drawable/rounded"/>
+
+
+                <Button
+                    android:id="@+id/login"
+                    android:layout_width="200dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/rounded_02"
+                    android:text="Sign In"
+                    android:textAllCaps="false"
+                    android:textColor="#ffffff"
+                    android:textSize="14sp" />
+
+                <Button
+                    android:id="@+id/register"
+                    android:layout_width="200dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/rounded_02"
+                    android:text="Register"
+                    android:textAllCaps="false"
+                    android:textColor="#ffffff"
+                    android:textSize="14sp" />
+
+
+
+                <TextView
+                    android:layout_marginTop="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom"
+                    android:textAlignment="center"
+                    android:textSize="10sp"
+                    android:textColor="#000000"
+                    android:text=""/>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+
+
+
+    <TextView
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:textAlignment="center"
+        android:textSize="12sp"
+        android:textColor="#ffffff"
+        android:text="Powered By Ekiti State Internal Revenue Service"/>
+
+
+
+</LinearLayout>

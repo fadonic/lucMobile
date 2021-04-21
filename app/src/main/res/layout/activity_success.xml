@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:textColor="#ffffff"
+    tools:context=".SuccessActivity">
+
+    <TextView
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        android:textColor="#000000"
+        android:text="Enumeration Successful"/>
+
+
+    <ImageView
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/check"
+        android:background="@drawable/rounded_03"/>
+
+
+    <TextView
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textSize="19sp"
+        android:id="@+id/details"
+        android:textColor="#000000"
+        android:text=""/>
+
+
+    <Button
+        android:layout_marginTop="20dp"
+        android:id="@+id/home_6"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="Create New Property"
+        android:layout_gravity="center"
+        android:textSize="19sp"
+        android:textAllCaps="false"
+        android:textColor="#ffffff"
+        android:background="@drawable/rounded_03" />
+</LinearLayout>

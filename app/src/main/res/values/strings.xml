@@ -1,0 +1,117 @@
+<resources>
+    <string name="app_name">EKIRS LUC</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">EKIRS Enumeration App</string>
+    <string name="nav_header_subtitle">www.ekitistaterevenue.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_home">HomeActivity</string>
+
+
+    <string name="property_title">Select Title</string>
+
+    <string-array name="title_arrays">
+        <item>Mr</item>
+        <item>Mrs</item>
+        <item>Miss</item>
+        <item>Chief</item>
+        <item>Engr</item>
+        <item>Dr</item>
+        <item>Prof</item>
+        <item>Surveyor</item>
+    </string-array>
+
+    <string-array name="tin_arrays">
+        <item>JTB</item>
+        <item>EK-TIN</item>
+    </string-array>
+
+
+    <string name="property_type">Property Type</string>
+
+    <string-array name="type_arrays">
+        <item>Residential Building</item>
+        <item>Hotel</item>
+        <item>Office Complex/Business Premises</item>
+        <item>Petrol Station</item>
+        <item>Telecoms Base Station</item>
+        <item>Power Substation</item>
+        <item>Banks(First, Uba)</item>
+        <item>Microfinance Bank</item>
+        <item>Finance House</item>
+        <item>Insurance Companies</item>
+        <item>Industrial Property</item>
+        <item>Hospital</item>
+        <item>Priv Secondary Schl (Category A)</item>
+        <item>Priv Secondary Schl (Category B)</item>
+        <item>Priv Primary Schl (Category A)</item>
+        <item>Priv Primary Schl (Category B)</item>
+
+    </string-array>
+
+
+    <string name="lga">LGA</string>
+
+    <string-array name="lga_area">
+        <item>Ado-Ekiti</item>
+        <item>Ikere-Ekiti</item>
+        <item>Ekiti East</item>
+        <item>Ekiti South West</item>
+        <item>Ekiti West</item>
+        <item>Ido/Osi</item>
+        <item>Irepodun/Ifelodun</item>
+        <item>Oye</item>
+        <item>Ikole</item>
+        <item>Ijero</item>
+        <item>Moba</item>
+        <item>Ise/orun</item>
+        <item>Ilejemeje</item>
+        <item>Gboyin</item>
+        <item>Emure</item>
+        <item>Efon</item>
+    </string-array>
+
+    <string name="zone">LGA</string>
+
+    <string-array name="lga_zone">
+        <item>HVZ</item>
+        <item>MVZ</item>
+        <item>LVZ</item>
+        <item>ENC</item>
+        <item>EDU</item>
+    </string-array>
+
+    <string name="cate">Category</string>
+
+    <string-array name="Category">
+        <item>A</item>
+        <item>B</item>
+        <item>C</item>
+    </string-array>
+
+
+    <string name="building">Building Category</string>
+
+    <string-array name="building_category">
+        <item>Bungalow ( painted)</item>
+        <item>Bungalow ( Unpainted)</item>
+        <item>One Storey building( painted)</item>
+        <item>One Storey building ( Unpainted)</item>
+        <item>Two Storey building ( painted)</item>
+        <item>Two Storey building ( Unpainted)</item>
+        <item>Three Storey building (painted)</item>
+        <item>Three Storey building ( Unpainted)</item>
+    </string-array>
+
+    <string-array name="land_structure">
+        <item>Fenced Building</item>
+        <item>Unfenced Building</item>
+        <item>Parcel of Land ( Occupied)</item>
+        <item>Empty Parcel of Land ( Not Occupied)</item>
+        <item>Empty Parcel of Land ( Fenced)</item>
+        <item>Empty Parcel of Land ( Not fenced)</item>
+    </string-array>
+
+
+</resources>

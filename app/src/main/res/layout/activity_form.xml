@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".FormActivity">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="16dp"
+            android:orientation="vertical"
+            android:gravity="bottom">
+
+            <TextView
+                android:layout_marginTop="30dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:textSize="30sp"
+                android:textColor="#000000"
+                android:text="Basic Information"/>
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:textSize="17sp"
+                android:textColor="#000000"
+                android:text="Fill Out Property Owner's Personal Details"/>
+
+
+            <TextView
+                android:layout_marginTop="70dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Title*"
+                android:textColor="#000000"
+                android:textSize="16sp">
+            </TextView>
+
+            <Spinner
+                android:layout_width="250dp"
+                android:layout_gravity="center"
+                android:hint=""
+                android:layout_height="40dp"
+                android:id="@+id/title_01"
+                android:background="@drawable/rounded"
+                android:entries="@array/title_arrays"
+                android:prompt="@string/property_title" />
+
+            <TextView
+                android:layout_marginTop="4dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="First name*"
+                android:textColor="#000000"
+                android:textSize="16sp">
+            </TextView>
+
+            <EditText
+                android:layout_width="250dp"
+                android:layout_gravity="center"
+                android:hint="first name"
+                android:id="@+id/firstName"
+                android:layout_height="40dp"
+                android:background="@drawable/rounded"/>
+
+            <TextView
+                android:layout_marginTop="4dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Middle name*"
+                android:textColor="#000000"
+                android:textSize="16sp">
+            </TextView>
+
+            <EditText
+                android:layout_width="250dp"
+                android:layout_gravity="center"
+                android:hint="Middle name"
+                android:id="@+id/middleName"
+                android:layout_height="40dp"
+                android:background="@drawable/rounded"/>
+
+            <TextView
+                android:layout_marginTop="4dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Last name*"
+                android:textColor="#000000"
+                android:textSize="16sp">
+            </TextView>
+
+            <EditText
+                android:layout_width="250dp"
+                android:layout_gravity="center"
+                android:hint="Last name"
+                android:id="@+id/lastName"
+                android:layout_height="40dp"
+                android:background="@drawable/rounded"/>
+
+            <TextView
+                android:layout_marginTop="4dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Tin Type"
+                android:textColor="#000000"
+                android:textSize="16sp">
+            </TextView>
+
+            <Spinner
+                android:layout_width="250dp"
+                android:layout_gravity="center"
+                android:hint=""
+                android:layout_height="40dp"
+                android:id="@+id/tintype"
+                android:background="@drawable/rounded"
+                android:entries="@array/tin_arrays" />
+
+            <TextView
+                android:layout_marginTop="4dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Tin Number"
+                android:textColor="#000000"
+                android:textSize="16sp">
+            </TextView>
+
+            <EditText
+                android:layout_marginTop="4dp"
+                android:layout_width="250dp"
+                android:layout_gravity="center"
+                android:hint="TIN"
+                android:id="@+id/tin"
+                android:inputType="number"
+                android:layout_height="40dp"
+                android:background="@drawable/rounded"/>
+
+            <TextView
+                android:layout_marginTop="4dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Phone*"
+                android:textColor="#000000"
+                android:textSize="16sp">
+            </TextView>
+
+            <EditText
+                android:layout_width="250dp"
+                android:layout_gravity="center"
+                android:hint="Phone"
+                android:inputType="phone"
+                android:id="@+id/phone"
+                android:layout_height="40dp"
+                android:background="@drawable/rounded"/>
+
+
+            <RelativeLayout
+                android:id="@+id/relativeLayout1"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:layout_marginBottom="0dp">
+
+                <Button
+                    android:id="@+id/next_01"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:text="Proceed"
+                    android:layout_alignParentRight="true"
+                    android:textSize="19sp"
+                    android:textAllCaps="false"
+                    android:textColor="#ffffff"
+                    android:background="@drawable/rounded_02" />
+
+            </RelativeLayout>
+        </LinearLayout>
+
+
+
+    </ScrollView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:id="@+id/staffss">
+    </TextView>
+
+</LinearLayout>
